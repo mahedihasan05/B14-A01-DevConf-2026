@@ -9,6 +9,17 @@ body {
   height: 100%;
   width: 100%;
 }
+/* common css */
+.primary-btn {
+  background-color: #1d4ed8;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
 /* Header section css */
 header {
   background-color: #fff;
@@ -35,16 +46,6 @@ nav ul li a {
   text-decoration: none;
   color: #575757;
   font-family: "Arimo", sans-serif;
-}
-.primary-btn {
-  background-color: #1d4ed8;
-  padding: 10px 24px;
-  border: none;
-  border-radius: 10px;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
 }
 /* Hero section css */
 .hero {
@@ -88,4 +89,48 @@ nav ul li a {
   bottom: -60%;
   padding: 16px 34px;
   font-size: 20px;
+}
+/* speakers section css */
+.speakers {
+  margin: 80px 0;
+}
+.speakers h2 {
+  font-size: 56px;
+  font-weight: bold;
+  color: #000102;
+  text-align: center;
+  margin-bottom: 56px;
+}
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  width: 80%;
+  margin: 0 auto;
+}
+.speaker-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.speaker-card-content{
+  padding: 24px;
+}
+.speaker-card-content span{
+  font-size: 12px;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+.speaker-card-content h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #0d1b2a;
+  margin-bottom: 8px;
+}
+.speaker-card-content p{
+  font-size: 14px;
+  color: #575757;
 }
