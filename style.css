@@ -151,7 +151,6 @@ nav ul li a {
   font-weight: bold;
   color: #0d1b2a;
   text-align: center;
-  /* margin-bottom: 56px; */
 }
 .pricing p{
   font-size: 16px;
@@ -223,4 +222,54 @@ nav ul li a {
 }
 .special button{
   width: 100%;
+}
+/* missing section css */
+.missing {
+  margin: 100px 0;
+}
+.missing-content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+}
+.missing-content i{
+  color: #2563EB;
+  font-size: 44px;
+  margin-top: 44px;
+}
+.missing-content h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #0d1b2a;
+  text-align: center;
+}
+.missing-content p{
+  font-size: 14px;
+  color: #575757;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.missing-content form{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12px;
+  width: 40%;
+  margin: 0 auto;
+}
+.missing-content form input[type = "email"]{
+  padding: 13px 24px;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+}
+.missing-content span{
+  color: #575757;
+  font-size: 12px;
+}
+.missing-content span i{
+  color: #575757;
+  font-size: 14px;
+  margin: 0;
 }
