@@ -20,6 +20,17 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+.outline-btn {
+  background-color: transparent;
+  padding: 10px 24px;
+  border: 1px solid #2563EB;
+  border-radius: 8px;
+  color: #2563EB;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+}
 /* Header section css */
 header {
   background-color: #fff;
@@ -133,4 +144,83 @@ nav ul li a {
 .speaker-card-content p{
   font-size: 14px;
   color: #575757;
+}
+/* pricing section css */
+.pricing h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #0d1b2a;
+  text-align: center;
+  /* margin-bottom: 56px; */
+}
+.pricing p{
+  font-size: 16px;
+  color: #575757;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.pricing-cards{
+  /* display: flex;
+  justify-content: space-evenly; */
+  display: grid;
+  grid-template-columns: 380px 420px 380px;
+  justify-content: center;
+  gap: 24px;
+  width: 70%;
+  margin: 0 auto;
+}
+.pricing-card{
+  padding: 32px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+.pricing-card h6{
+  color: #888888;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.pricing-card h3{
+  font-size: 44px;
+  font-weight: bold;
+  color: #0d1b2a;
+}
+.pricing-card span{
+  font-size: 13px;
+  color: #888888;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.pricing-card ul{
+  padding: 20px 15px;
+  border-top: 1px solid #E5E7EB;
+}
+.pricing-card ul li{
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.pricing-card ul li::marker{
+  color: #2563EB;
+}
+.special{
+  background-color: #0D1B2A;
+}
+.special h6{
+  color: #93C5FD;
+}
+.special h3{
+  color: #ffffff;
+}
+.special span{
+  color: #fff;
+  opacity: 60%;
+}
+.special ul li{
+  color: #ffffff;
+  opacity: 80%;
+}
+.special button{
+  width: 100%;
 }
