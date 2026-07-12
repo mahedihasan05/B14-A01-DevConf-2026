@@ -285,12 +285,14 @@ footer{
   justify-content: space-between;
   align-items: center;
   padding-bottom: 24px;
-  border-bottom: 1px solid #696b6f;
 }
 .footer-top .footer-icons{
   font-size: 24px;
   color: #2563EB;
   cursor: pointer;
+}
+.hr{
+    border: 1px solid #696b6f;
 }
 .footer-bottom{
   display: flex;
